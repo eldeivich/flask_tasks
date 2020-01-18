@@ -9,10 +9,10 @@
             <tr>
                 <th>#</th>
                 <th>Título</th>
-                <th>Descripcion</th>
+                <th>Descripción</th>
                 <th>Fecha</th>
             </tr>
-            {% if registros.length == 0 %}
+            {% if registros | length == 0 %}
             <tr>
                 <td colspan="4">No hay tareas</td>
             </tr>
