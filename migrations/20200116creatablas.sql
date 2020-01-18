@@ -5,4 +5,4 @@ CREATE TABLE "empleados" (
 	"name"	TEXT NOT NULL,
 	"apellidos"	TEXT NOT NULL,
 	"email"	TEXT NOT NULL
-)
+);
